@@ -6,12 +6,23 @@ package com.bikerental.bikerental;
 
 public class CheckSubResponse implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public CheckSubResponse() {
-    }
+	private java.lang.String status;
 
+	public CheckSubResponse() {
+	}
 
+	public java.lang.String getStatus() {
+		return this.status;
+	}
 
+	public void setStatus(java.lang.String status) {
+		this.status = status;
+	}
+
+	public CheckSubResponse(java.lang.String status) {
+		this.status = status;
+	}
 
 }
