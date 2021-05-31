@@ -6,12 +6,33 @@ package com.bikerental.bikerental;
 
 public class OrderInfoResponse implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public OrderInfoResponse() {
-    }
+	private java.lang.Integer bikeNo;
+	private java.lang.String status;
 
+	public OrderInfoResponse() {
+	}
 
+	public java.lang.Integer getBikeNo() {
+		return this.bikeNo;
+	}
 
+	public void setBikeNo(java.lang.Integer bikeNo) {
+		this.bikeNo = bikeNo;
+	}
+
+	public java.lang.String getStatus() {
+		return this.status;
+	}
+
+	public void setStatus(java.lang.String status) {
+		this.status = status;
+	}
+
+	public OrderInfoResponse(java.lang.Integer bikeNo, java.lang.String status) {
+		this.bikeNo = bikeNo;
+		this.status = status;
+	}
 
 }
