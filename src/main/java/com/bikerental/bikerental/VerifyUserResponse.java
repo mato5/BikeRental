@@ -6,12 +6,24 @@ package com.bikerental.bikerental;
 
 public class VerifyUserResponse implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public VerifyUserResponse() {
-    }
+	@org.kie.api.definition.type.Label(value = "Verified")
+	private java.lang.Boolean verified;
 
+	public VerifyUserResponse() {
+	}
 
+	public java.lang.Boolean getVerified() {
+		return this.verified;
+	}
 
+	public void setVerified(java.lang.Boolean verified) {
+		this.verified = verified;
+	}
+
+	public VerifyUserResponse(java.lang.Boolean verified) {
+		this.verified = verified;
+	}
 
 }
