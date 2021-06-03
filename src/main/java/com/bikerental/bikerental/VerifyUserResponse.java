@@ -12,6 +12,9 @@ public class VerifyUserResponse implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Verified")
 	private java.lang.Boolean verified;
 
+	@org.kie.api.definition.type.Label(value = "Info")
+	private java.lang.String info;
+
 	public VerifyUserResponse() {
 	}
 
@@ -23,8 +26,17 @@ public class VerifyUserResponse implements java.io.Serializable {
 		this.verified = verified;
 	}
 
-	public VerifyUserResponse(java.lang.Boolean verified) {
+	public java.lang.String getInfo() {
+		return this.info;
+	}
+
+	public void setInfo(java.lang.String info) {
+		this.info = info;
+	}
+
+	public VerifyUserResponse(java.lang.Boolean verified, java.lang.String info) {
 		this.verified = verified;
+		this.info = info;
 	}
 
 }
