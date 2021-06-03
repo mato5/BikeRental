@@ -11,6 +11,8 @@ public class CheckSubResponse implements java.io.Serializable {
 
 	private java.lang.String status;
 
+	private java.lang.Boolean valid;
+
 	public CheckSubResponse() {
 	}
 
@@ -22,8 +24,17 @@ public class CheckSubResponse implements java.io.Serializable {
 		this.status = status;
 	}
 
-	public CheckSubResponse(java.lang.String status) {
+	public java.lang.Boolean getValid() {
+		return this.valid;
+	}
+
+	public void setValid(java.lang.Boolean valid) {
+		this.valid = valid;
+	}
+
+	public CheckSubResponse(java.lang.String status, java.lang.Boolean valid) {
 		this.status = status;
+		this.valid = valid;
 	}
 
 }
