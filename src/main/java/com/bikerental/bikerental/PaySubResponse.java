@@ -6,12 +6,33 @@ package com.bikerental.bikerental;
 
 public class PaySubResponse implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public PaySubResponse() {
-    }
+	private java.lang.String status;
+	private java.lang.Boolean accepted;
 
+	public PaySubResponse() {
+	}
 
+	public java.lang.String getStatus() {
+		return this.status;
+	}
 
+	public void setStatus(java.lang.String status) {
+		this.status = status;
+	}
+
+	public java.lang.Boolean getAccepted() {
+		return this.accepted;
+	}
+
+	public void setAccepted(java.lang.Boolean accepted) {
+		this.accepted = accepted;
+	}
+
+	public PaySubResponse(java.lang.String status, java.lang.Boolean accepted) {
+		this.status = status;
+		this.accepted = accepted;
+	}
 
 }
