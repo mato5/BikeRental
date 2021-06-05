@@ -8,11 +8,11 @@ public class ConfirmationUser implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Email")
+	@org.kie.api.definition.type.Label("Email")
 	private java.lang.String email;
-	@org.kie.api.definition.type.Label(value = "Header")
+	@org.kie.api.definition.type.Label("Header")
 	private java.lang.String header;
-	@org.kie.api.definition.type.Label(value = "Body")
+	@org.kie.api.definition.type.Label("Body")
 	private java.lang.String body;
 
 	public ConfirmationUser() {
