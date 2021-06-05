@@ -12,7 +12,7 @@ public class VerifyUserResponse implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Verified")
 	private java.lang.Boolean verified;
 
-	@org.kie.api.definition.type.Label(value = "Info")
+	@org.kie.api.definition.type.Label("Info")
 	private java.lang.String info;
 
 	public VerifyUserResponse() {
