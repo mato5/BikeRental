@@ -6,12 +6,24 @@ package com.bikerental.bikerental;
 
 public class StoreResponse implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public StoreResponse() {
-    }
+	@org.kie.api.definition.type.Label(value = "Status")
+	private java.lang.String status;
 
+	public StoreResponse() {
+	}
 
+	public java.lang.String getStatus() {
+		return this.status;
+	}
 
+	public void setStatus(java.lang.String status) {
+		this.status = status;
+	}
+
+	public StoreResponse(java.lang.String status) {
+		this.status = status;
+	}
 
 }
