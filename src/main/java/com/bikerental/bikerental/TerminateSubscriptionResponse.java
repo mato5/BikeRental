@@ -6,12 +6,36 @@ package com.bikerental.bikerental;
 
 public class TerminateSubscriptionResponse implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public TerminateSubscriptionResponse() {
-    }
+	@org.kie.api.definition.type.Label(value = "Status")
+	private java.lang.String status;
+	@org.kie.api.definition.type.Label(value = "Info")
+	private java.lang.String info;
 
+	public TerminateSubscriptionResponse() {
+	}
 
+	public java.lang.String getStatus() {
+		return this.status;
+	}
 
+	public void setStatus(java.lang.String status) {
+		this.status = status;
+	}
+
+	public java.lang.String getInfo() {
+		return this.info;
+	}
+
+	public void setInfo(java.lang.String info) {
+		this.info = info;
+	}
+
+	public TerminateSubscriptionResponse(java.lang.String status,
+			java.lang.String info) {
+		this.status = status;
+		this.info = info;
+	}
 
 }
