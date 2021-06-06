@@ -6,12 +6,35 @@ package com.bikerental.bikerental;
 
 public class ReturnedBike implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public ReturnedBike() {
-    }
+	@org.kie.api.definition.type.Label(value = "ID")
+	private java.lang.String id;
+	@org.kie.api.definition.type.Label(value = "IsDameged")
+	private java.lang.Boolean isDamaged;
 
+	public ReturnedBike() {
+	}
 
+	public java.lang.String getId() {
+		return this.id;
+	}
 
+	public void setId(java.lang.String id) {
+		this.id = id;
+	}
+
+	public java.lang.Boolean getIsDamaged() {
+		return this.isDamaged;
+	}
+
+	public void setIsDamaged(java.lang.Boolean isDamaged) {
+		this.isDamaged = isDamaged;
+	}
+
+	public ReturnedBike(java.lang.String id, java.lang.Boolean isDamaged) {
+		this.id = id;
+		this.isDamaged = isDamaged;
+	}
 
 }
