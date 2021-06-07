@@ -5,25 +5,24 @@ package com.bikerental.bikerental;
  */
 
 @javax.xml.bind.annotation.XmlRootElement
-public class VerifyUserResponse implements java.io.Serializable {
+public class TerminateSubscriptionResponse implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label("Verified")
-	private java.lang.Boolean verified;
-
+	@org.kie.api.definition.type.Label("Status")
+	private java.lang.String status;
 	@org.kie.api.definition.type.Label("Info")
 	private java.lang.String info;
 
-	public VerifyUserResponse() {
+	public TerminateSubscriptionResponse() {
 	}
 
-	public java.lang.Boolean getVerified() {
-		return this.verified;
+	public java.lang.String getStatus() {
+		return this.status;
 	}
 
-	public void setVerified(java.lang.Boolean verified) {
-		this.verified = verified;
+	public void setStatus(java.lang.String status) {
+		this.status = status;
 	}
 
 	public java.lang.String getInfo() {
@@ -34,8 +33,9 @@ public class VerifyUserResponse implements java.io.Serializable {
 		this.info = info;
 	}
 
-	public VerifyUserResponse(java.lang.Boolean verified, java.lang.String info) {
-		this.verified = verified;
+	public TerminateSubscriptionResponse(java.lang.String status,
+			java.lang.String info) {
+		this.status = status;
 		this.info = info;
 	}
 
