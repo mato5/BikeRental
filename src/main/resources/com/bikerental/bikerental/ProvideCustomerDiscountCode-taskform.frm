@@ -1,0 +1,1 @@
+{"id":"3923139c-4894-4c1e-9747-4f96ad4f2638","name":"ProvideCustomerDiscountCode-taskform.frm","model":{"taskName":"ProvideCustomerDiscountCode","processId":"BikeRental.BikeReturn","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
