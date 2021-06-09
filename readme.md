@@ -10,7 +10,7 @@ Bikes4Everyone is a project created for [PV207](https://is.muni.cz/predmet/fi/ja
 
 1. Download jBPM - [jBPM 7.49.0.Final](https://download.jboss.org/jbpm/release/7.49.0.Final/jbpm-server-7.49.0.Final-dist.zip)
 2. Extract the folder and run `jbpm-server/bin/standalone.sh` for Linux, or `jbpm-server/bin/standalone.bat` for Windows
-3. Go to [http://localhost:8080/business-central/](http://localhost:8080/business-central/)
+3. Run the app - go to [http://localhost:8080/business-central/](http://localhost:8080/business-central/)
 
 (it is also possible to run jBPM in [Docker](https://hub.docker.com/r/jboss/jbpm-server-full/))
 
