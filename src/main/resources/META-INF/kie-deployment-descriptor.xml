@@ -12,7 +12,7 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("smtp.gmail.com", "587", "bbbbiikes@gmail.com", "asd123qwe456", "true")</identifier>
+            <identifier>new org.jbpm.process.workitem.email.EmailWorkItemHandler("smtp.gmail.com", "587", "bikes4everyone.pv207@gmail.com", "qwe123*789", "true")</identifier>
             <parameters/>
             <name>Email</name>
         </work-item-handler>
